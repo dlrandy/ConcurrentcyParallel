@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConcurrentcyParallel", "ConcurrentcyParallel\ConcurrentcyParallel.csproj", "{40F24D4D-7DB7-43FB-9786-BD52B0A6617F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Works", "Works", "{A3C5FE47-ACE6-4FDA-9151-FAD0A47B883B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ManagedThreading", "ManagedThreading\ManagedThreading.csproj", "{AD4EE744-766E-49FF-91A0-F318FD46F01D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{40F24D4D-7DB7-43FB-9786-BD52B0A6617F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F24D4D-7DB7-43FB-9786-BD52B0A6617F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F24D4D-7DB7-43FB-9786-BD52B0A6617F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F24D4D-7DB7-43FB-9786-BD52B0A6617F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD4EE744-766E-49FF-91A0-F318FD46F01D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD4EE744-766E-49FF-91A0-F318FD46F01D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD4EE744-766E-49FF-91A0-F318FD46F01D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD4EE744-766E-49FF-91A0-F318FD46F01D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7021879C-AAD0-463D-93D3-F134E37C0C83}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AD4EE744-766E-49FF-91A0-F318FD46F01D} = {A3C5FE47-ACE6-4FDA-9151-FAD0A47B883B}
+	EndGlobalSection
+EndGlobal
